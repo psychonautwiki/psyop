@@ -66,5 +66,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>GT-Sectra-Book-Italic.ttf</string>
+		<string>GT-Sectra-Book.ttf</string>
+		<string>GT-Sectra-Regular-Italic.ttf</string>
+		<string>GT-Sectra-Medium.ttf</string>
+	</array>
 </dict>
 </plist>

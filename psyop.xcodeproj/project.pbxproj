@@ -3,27 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4B126AE2474A41100C97C67 /* heroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B126AD2474A41100C97C67 /* heroPage.swift */; };
+		C4BDADBD24753A9400C146D9 /* GT-Sectra-Medium-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BDADB124753A9300C146D9 /* GT-Sectra-Medium-Italic.ttf */; };
+		C4BDADBE24753A9400C146D9 /* GT-Sectra-Fine-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BDADB224753A9400C146D9 /* GT-Sectra-Fine-Book.ttf */; };
+		C4BDADBF24753A9400C146D9 /* GT-Sectra-Fine-Book-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BDADB324753A9400C146D9 /* GT-Sectra-Fine-Book-Italic.ttf */; };
+		C4BDADC024753A9400C146D9 /* GT-Sectra-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BDADB424753A9400C146D9 /* GT-Sectra-Medium.ttf */; };
+		C4BDADC124753A9400C146D9 /* GT-Sectra-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BDADB524753A9400C146D9 /* GT-Sectra-Book.ttf */; };
+		C4BDADC224753A9400C146D9 /* GT-Sectra-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BDADB624753A9400C146D9 /* GT-Sectra-Black.ttf */; };
+		C4BDADC324753A9400C146D9 /* GT-Sectra-Bold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BDADB724753A9400C146D9 /* GT-Sectra-Bold-Italic.ttf */; };
+		C4BDADC424753A9400C146D9 /* GT-Sectra-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BDADB824753A9400C146D9 /* GT-Sectra-Bold.ttf */; };
+		C4BDADC524753A9400C146D9 /* GT-Sectra-Book-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BDADB924753A9400C146D9 /* GT-Sectra-Book-Italic.ttf */; };
+		C4BDADC624753A9400C146D9 /* GT-Sectra-Regular-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BDADBA24753A9400C146D9 /* GT-Sectra-Regular-Italic.ttf */; };
+		C4BDADC724753A9400C146D9 /* GT-Sectra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BDADBB24753A9400C146D9 /* GT-Sectra-Regular.ttf */; };
+		C4BDADC824753A9400C146D9 /* GT-Sectra-Black-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4BDADBC24753A9400C146D9 /* GT-Sectra-Black-Italic.ttf */; };
+		C4BDADCA24753C5200C146D9 /* branding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BDADC924753C5200C146D9 /* branding.swift */; };
 		C4E069AE247295DA00D59429 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E069AD247295DA00D59429 /* AppDelegate.swift */; };
 		C4E069B0247295DA00D59429 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E069AF247295DA00D59429 /* SceneDelegate.swift */; };
-		C4E069B2247295DA00D59429 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E069B1247295DA00D59429 /* ContentView.swift */; };
+		C4E069B2247295DA00D59429 /* contentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E069B1247295DA00D59429 /* contentView.swift */; };
 		C4E069B4247295DD00D59429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E069B3247295DD00D59429 /* Assets.xcassets */; };
 		C4E069B7247295DD00D59429 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E069B6247295DD00D59429 /* Preview Assets.xcassets */; };
 		C4E069BA247295DD00D59429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E069B8247295DD00D59429 /* LaunchScreen.storyboard */; };
+		C4E069C32472964800D59429 /* ApolloSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = C4E069C22472964800D59429 /* ApolloSQLite */; };
+		C4E069C52472964800D59429 /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = C4E069C42472964800D59429 /* ApolloWebSocket */; };
+		C4E069C72472964800D59429 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = C4E069C62472964800D59429 /* Apollo */; };
+		C4E069C92472964800D59429 /* ApolloCodegenLib in Frameworks */ = {isa = PBXBuildFile; productRef = C4E069C82472964800D59429 /* ApolloCodegenLib */; };
+		C4E069CC247298CD00D59429 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E069CB247298CD00D59429 /* API.swift */; };
+		C4E069CE24729A4400D59429 /* network.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E069CD24729A4400D59429 /* network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4B126AD2474A41100C97C67 /* heroPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heroPage.swift; sourceTree = "<group>"; };
+		C4BDADB124753A9300C146D9 /* GT-Sectra-Medium-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Sectra-Medium-Italic.ttf"; sourceTree = "<group>"; };
+		C4BDADB224753A9400C146D9 /* GT-Sectra-Fine-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Sectra-Fine-Book.ttf"; sourceTree = "<group>"; };
+		C4BDADB324753A9400C146D9 /* GT-Sectra-Fine-Book-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Sectra-Fine-Book-Italic.ttf"; sourceTree = "<group>"; };
+		C4BDADB424753A9400C146D9 /* GT-Sectra-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Sectra-Medium.ttf"; sourceTree = "<group>"; };
+		C4BDADB524753A9400C146D9 /* GT-Sectra-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Sectra-Book.ttf"; sourceTree = "<group>"; };
+		C4BDADB624753A9400C146D9 /* GT-Sectra-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Sectra-Black.ttf"; sourceTree = "<group>"; };
+		C4BDADB724753A9400C146D9 /* GT-Sectra-Bold-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Sectra-Bold-Italic.ttf"; sourceTree = "<group>"; };
+		C4BDADB824753A9400C146D9 /* GT-Sectra-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Sectra-Bold.ttf"; sourceTree = "<group>"; };
+		C4BDADB924753A9400C146D9 /* GT-Sectra-Book-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Sectra-Book-Italic.ttf"; sourceTree = "<group>"; };
+		C4BDADBA24753A9400C146D9 /* GT-Sectra-Regular-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Sectra-Regular-Italic.ttf"; sourceTree = "<group>"; };
+		C4BDADBB24753A9400C146D9 /* GT-Sectra-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Sectra-Regular.ttf"; sourceTree = "<group>"; };
+		C4BDADBC24753A9400C146D9 /* GT-Sectra-Black-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-Sectra-Black-Italic.ttf"; sourceTree = "<group>"; };
+		C4BDADC924753C5200C146D9 /* branding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = branding.swift; sourceTree = "<group>"; };
 		C4E069AA247295DA00D59429 /* psyop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = psyop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E069AD247295DA00D59429 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4E069AF247295DA00D59429 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C4E069B1247295DA00D59429 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4E069B1247295DA00D59429 /* contentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentView.swift; sourceTree = "<group>"; };
 		C4E069B3247295DD00D59429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4E069B6247295DD00D59429 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4E069B9247295DD00D59429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4E069BB247295DD00D59429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E069CB247298CD00D59429 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		C4E069CD24729A4400D59429 /* network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +67,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E069C32472964800D59429 /* ApolloSQLite in Frameworks */,
+				C4E069C72472964800D59429 /* Apollo in Frameworks */,
+				C4E069C52472964800D59429 /* ApolloWebSocket in Frameworks */,
+				C4E069C92472964800D59429 /* ApolloCodegenLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4BDADAF24753A7A00C146D9 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				C4BDADB024753A8800C146D9 /* fonts */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		C4BDADB024753A8800C146D9 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C4BDADBC24753A9400C146D9 /* GT-Sectra-Black-Italic.ttf */,
+				C4BDADB624753A9400C146D9 /* GT-Sectra-Black.ttf */,
+				C4BDADB724753A9400C146D9 /* GT-Sectra-Bold-Italic.ttf */,
+				C4BDADB824753A9400C146D9 /* GT-Sectra-Bold.ttf */,
+				C4BDADB924753A9400C146D9 /* GT-Sectra-Book-Italic.ttf */,
+				C4BDADB524753A9400C146D9 /* GT-Sectra-Book.ttf */,
+				C4BDADB324753A9400C146D9 /* GT-Sectra-Fine-Book-Italic.ttf */,
+				C4BDADB224753A9400C146D9 /* GT-Sectra-Fine-Book.ttf */,
+				C4BDADB124753A9300C146D9 /* GT-Sectra-Medium-Italic.ttf */,
+				C4BDADB424753A9400C146D9 /* GT-Sectra-Medium.ttf */,
+				C4BDADBA24753A9400C146D9 /* GT-Sectra-Regular-Italic.ttf */,
+				C4BDADBB24753A9400C146D9 /* GT-Sectra-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		C4E069A1247295DA00D59429 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +123,18 @@
 		C4E069AC247295DA00D59429 /* psyop */ = {
 			isa = PBXGroup;
 			children = (
+				C4E069CB247298CD00D59429 /* API.swift */,
 				C4E069AD247295DA00D59429 /* AppDelegate.swift */,
 				C4E069AF247295DA00D59429 /* SceneDelegate.swift */,
-				C4E069B1247295DA00D59429 /* ContentView.swift */,
 				C4E069B3247295DD00D59429 /* Assets.xcassets */,
 				C4E069B8247295DD00D59429 /* LaunchScreen.storyboard */,
 				C4E069BB247295DD00D59429 /* Info.plist */,
+				C4BDADAF24753A7A00C146D9 /* assets */,
 				C4E069B5247295DD00D59429 /* Preview Content */,
+				C4E069CD24729A4400D59429 /* network.swift */,
+				C4B126AD2474A41100C97C67 /* heroPage.swift */,
+				C4BDADC924753C5200C146D9 /* branding.swift */,
+				C4E069B1247295DA00D59429 /* contentView.swift */,
 			);
 			path = psyop;
 			sourceTree = "<group>";
@@ -82,6 +154,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4E069BE247295DD00D59429 /* Build configuration list for PBXNativeTarget "psyop" */;
 			buildPhases = (
+				C4E069CA2472984400D59429 /* Generate Apollo GraphQL API */,
 				C4E069A6247295DA00D59429 /* Sources */,
 				C4E069A7247295DA00D59429 /* Frameworks */,
 				C4E069A8247295DA00D59429 /* Resources */,
@@ -91,6 +164,12 @@
 			dependencies = (
 			);
 			name = psyop;
+			packageProductDependencies = (
+				C4E069C22472964800D59429 /* ApolloSQLite */,
+				C4E069C42472964800D59429 /* ApolloWebSocket */,
+				C4E069C62472964800D59429 /* Apollo */,
+				C4E069C82472964800D59429 /* ApolloCodegenLib */,
+			);
 			productName = psyop;
 			productReference = C4E069AA247295DA00D59429 /* psyop.app */;
 			productType = "com.apple.product-type.application";
@@ -111,7 +190,7 @@
 				};
 			};
 			buildConfigurationList = C4E069A5247295DA00D59429 /* Build configuration list for PBXProject "psyop" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -119,6 +198,9 @@
 				Base,
 			);
 			mainGroup = C4E069A1247295DA00D59429;
+			packageReferences = (
+				C4E069C12472964800D59429 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = C4E069AB247295DA00D59429 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -136,19 +218,56 @@
 				C4E069BA247295DD00D59429 /* LaunchScreen.storyboard in Resources */,
 				C4E069B7247295DD00D59429 /* Preview Assets.xcassets in Resources */,
 				C4E069B4247295DD00D59429 /* Assets.xcassets in Resources */,
+				C4BDADC124753A9400C146D9 /* GT-Sectra-Book.ttf in Resources */,
+				C4BDADC324753A9400C146D9 /* GT-Sectra-Bold-Italic.ttf in Resources */,
+				C4BDADC624753A9400C146D9 /* GT-Sectra-Regular-Italic.ttf in Resources */,
+				C4BDADC024753A9400C146D9 /* GT-Sectra-Medium.ttf in Resources */,
+				C4BDADBD24753A9400C146D9 /* GT-Sectra-Medium-Italic.ttf in Resources */,
+				C4BDADC724753A9400C146D9 /* GT-Sectra-Regular.ttf in Resources */,
+				C4BDADC524753A9400C146D9 /* GT-Sectra-Book-Italic.ttf in Resources */,
+				C4BDADBF24753A9400C146D9 /* GT-Sectra-Fine-Book-Italic.ttf in Resources */,
+				C4BDADBE24753A9400C146D9 /* GT-Sectra-Fine-Book.ttf in Resources */,
+				C4BDADC824753A9400C146D9 /* GT-Sectra-Black-Italic.ttf in Resources */,
+				C4BDADC424753A9400C146D9 /* GT-Sectra-Bold.ttf in Resources */,
+				C4BDADC224753A9400C146D9 /* GT-Sectra-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4E069CA2472984400D59429 /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4E069A6247295DA00D59429 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B126AE2474A41100C97C67 /* heroPage.swift in Sources */,
+				C4E069CE24729A4400D59429 /* network.swift in Sources */,
 				C4E069AE247295DA00D59429 /* AppDelegate.swift in Sources */,
 				C4E069B0247295DA00D59429 /* SceneDelegate.swift in Sources */,
-				C4E069B2247295DA00D59429 /* ContentView.swift in Sources */,
+				C4BDADCA24753C5200C146D9 /* branding.swift in Sources */,
+				C4E069CC247298CD00D59429 /* API.swift in Sources */,
+				C4E069B2247295DA00D59429 /* contentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"psyop/Preview Content\"";
 				DEVELOPMENT_TEAM = 3352WVT944;
@@ -295,6 +415,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenansulayman.psyop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"psyop/Preview Content\"";
 				DEVELOPMENT_TEAM = 3352WVT944;
@@ -315,6 +437,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenansulayman.psyop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -342,6 +465,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C4E069C12472964800D59429 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.27.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C4E069C22472964800D59429 /* ApolloSQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4E069C12472964800D59429 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloSQLite;
+		};
+		C4E069C42472964800D59429 /* ApolloWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4E069C12472964800D59429 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloWebSocket;
+		};
+		C4E069C62472964800D59429 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4E069C12472964800D59429 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		C4E069C82472964800D59429 /* ApolloCodegenLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4E069C12472964800D59429 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloCodegenLib;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C4E069A2247295DA00D59429 /* Project object */;
 }
